@@ -1,0 +1,9 @@
+[gates]
+order = ["vet"]
+
+[gates.vet]
+command = "echo gate-stub-passes"
+timeout = "10s"
+
+[merge]
+method = "squash"
